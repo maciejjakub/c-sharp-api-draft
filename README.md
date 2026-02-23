@@ -1,2 +1,4 @@
 # c-sharp-api-draft
-A repository to store experiment API drafts in C#
+Draft of two backend-service functionalities:
+- Expose HTTP API, acquire a token from Microsoft Entra using DefaultAzureCredential from Azure.Identity library, call downstream API with this access token using handler
+- Listen to messages on Azure Service Bus Queue
